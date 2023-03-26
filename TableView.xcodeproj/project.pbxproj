@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8985E06F29C56A3700B98E27 /* ContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985E06E29C56A3700B98E27 /* ContactsVC.swift */; };
 		89C73FD729C22CBD006747C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C73FD629C22CBD006747C1 /* AppDelegate.swift */; };
 		89C73FD929C22CBD006747C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C73FD829C22CBD006747C1 /* SceneDelegate.swift */; };
 		89C73FDB29C22CBD006747C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C73FDA29C22CBD006747C1 /* ViewController.swift */; };
 		89C73FDE29C22CBD006747C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C73FDC29C22CBD006747C1 /* Main.storyboard */; };
 		89C73FE029C22CBF006747C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C73FDF29C22CBF006747C1 /* Assets.xcassets */; };
 		89C73FE329C22CBF006747C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C73FE129C22CBF006747C1 /* LaunchScreen.storyboard */; };
+		89C73FEB29C23B06006747C1 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C73FEA29C23B06006747C1 /* HomeTableViewCell.swift */; };
+		89C73FEF29C2BDCC006747C1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C73FEE29C2BDCC006747C1 /* HomeViewController.swift */; };
+		89D866E529C4D7C000AFCC93 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D866E429C4D7C000AFCC93 /* UsersViewController.swift */; };
+		89F586FB29C641FB009AB738 /* NumbersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F586FA29C641FB009AB738 /* NumbersVC.swift */; };
+		89F586FD29C664AE009AB738 /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F586FC29C664AE009AB738 /* CitiesViewController.swift */; };
+		89F586FF29C664D1009AB738 /* CitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F586FE29C664D1009AB738 /* CitiesTableViewCell.swift */; };
+		89F5870329C6D0A0009AB738 /* countryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F5870229C6D0A0009AB738 /* countryVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8985E06E29C56A3700B98E27 /* ContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsVC.swift; sourceTree = "<group>"; };
 		89C73FD329C22CBD006747C1 /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C73FD629C22CBD006747C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89C73FD829C22CBD006747C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,13 @@
 		89C73FDF29C22CBF006747C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89C73FE229C22CBF006747C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C73FE429C22CBF006747C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C73FEA29C23B06006747C1 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		89C73FEE29C2BDCC006747C1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		89D866E429C4D7C000AFCC93 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		89F586FA29C641FB009AB738 /* NumbersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersVC.swift; sourceTree = "<group>"; };
+		89F586FC29C664AE009AB738 /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
+		89F586FE29C664D1009AB738 /* CitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewCell.swift; sourceTree = "<group>"; };
+		89F5870229C6D0A0009AB738 /* countryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countryVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +79,14 @@
 				89C73FDF29C22CBF006747C1 /* Assets.xcassets */,
 				89C73FE129C22CBF006747C1 /* LaunchScreen.storyboard */,
 				89C73FE429C22CBF006747C1 /* Info.plist */,
+				89C73FEA29C23B06006747C1 /* HomeTableViewCell.swift */,
+				89C73FEE29C2BDCC006747C1 /* HomeViewController.swift */,
+				89D866E429C4D7C000AFCC93 /* UsersViewController.swift */,
+				8985E06E29C56A3700B98E27 /* ContactsVC.swift */,
+				89F586FA29C641FB009AB738 /* NumbersVC.swift */,
+				89F586FC29C664AE009AB738 /* CitiesViewController.swift */,
+				89F586FE29C664D1009AB738 /* CitiesTableViewCell.swift */,
+				89F5870229C6D0A0009AB738 /* countryVC.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -138,9 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C73FEF29C2BDCC006747C1 /* HomeViewController.swift in Sources */,
+				89D866E529C4D7C000AFCC93 /* UsersViewController.swift in Sources */,
+				89F5870329C6D0A0009AB738 /* countryVC.swift in Sources */,
 				89C73FDB29C22CBD006747C1 /* ViewController.swift in Sources */,
+				89F586FD29C664AE009AB738 /* CitiesViewController.swift in Sources */,
 				89C73FD729C22CBD006747C1 /* AppDelegate.swift in Sources */,
+				89C73FEB29C23B06006747C1 /* HomeTableViewCell.swift in Sources */,
+				89F586FF29C664D1009AB738 /* CitiesTableViewCell.swift in Sources */,
+				8985E06F29C56A3700B98E27 /* ContactsVC.swift in Sources */,
 				89C73FD929C22CBD006747C1 /* SceneDelegate.swift in Sources */,
+				89F586FB29C641FB009AB738 /* NumbersVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
